@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "giamgia momo",
+    "discount": "10%",
+    "image": "https://via.placeholder.com/150",
+    "partnerId": 1
+  },
+  {
+    "id": 2,
+    "name": "giam gia vina",
+    "discount": "20%",
+    "image": "https://via.placeholder.com/150",
+    "partnerId": 2
+  },
+  {
+    "id": 3,
+    "name": "30% off",
+    "discount": "30%",
+    "image": "https://via.placeholder.com/150",
+    "partnerId": 1
+  },
+  {
+    "id": 6,
+    "name": "10% off",
+    "discount": "10%",
+    "image": "https://via.placeholder.com/150",
+    "partnerId": 1
+  },
+  {
+    "id": 4,
+    "name": "20% off",
+    "discount": "20%",
+    "image": "https://via.placeholder.com/150",
+    "partnerId": 2
+  },
+  {
+    "id": 5,
+    "name": "30% off",
+    "discount": "30%",
+    "image": "https://via.placeholder.com/150",
+    "partnerId": 1
+  }
+]

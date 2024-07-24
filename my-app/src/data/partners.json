@@ -1,0 +1,12 @@
+[
+    {
+      "id": 1,
+      "name": "Partner A",
+      "logo": "/images/partner1.png"
+    },
+    {
+      "id": 2,
+      "name": "Partner B",
+      "logo": "/images/partner2.png"
+    }
+  ]
