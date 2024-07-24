@@ -2,10 +2,11 @@ import PropTypes from 'prop-types';
 
 const PartnerCard = ({ partner }) => {
   return (
-    <div className="bg-gray-800 p-4 rounded-md">
-      <img className="w-full h-48 object-cover rounded-md mb-4" src={partner.logo} alt={partner.name} />
-      <h2 className="text-xl font-semibold">{partner.name}</h2>
-      {/* Add CRUD buttons here */}
+    <div className="bg-gray-800 p-4 rounded-md flex items-center">
+      <div className="w-16 h-16 bg-[#252041] rounded-full overflow-hidden">
+        <img src={partner.logo} alt={partner.name} className="w-full h-full object-cover" />
+      </div>
+      <p className="text-lg text-[#adabb8] font-bold ml-4">{partner.name}</p>
     </div>
   );
 };

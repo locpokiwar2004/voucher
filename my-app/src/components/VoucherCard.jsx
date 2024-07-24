@@ -1,25 +1,33 @@
+import React from "react";
 import PropTypes from 'prop-types';
-
-const VoucherCard = ({ voucher, partners }) => {
+import { Link } from "react-router-dom";
+const Card = ({ voucher, partners }) => {
   const partner = partners.find(p => p.id === voucher.partnerId);
 
   return (
-    <div className="bg-gray-800 p-4 rounded-md">
-      <img className="w-full h-48 object-cover rounded-md mb-4" src={voucher.image} alt={voucher.name} />
-      <h2 className="text-xl font-semibold">{voucher.name}</h2>
-      <p className="text-gray-400">Discount: {voucher.discount}</p>
-      {partner && (
-        <div className="mt-2 flex items-center">
-          <img className="w-8 h-8 rounded-full" src={partner.logo} alt={partner.name} />
-          <span className="ml-2 text-gray-300">{partner.name}</span>
+    <div className=" ">
+      <Link to={`/DetailVoucher/${voucher.id}`}>
+        <div className="bg-[#252041] rounded-lg overflow-hidden  pb-5 my-4 mx-2">
+          <img src={voucher.image} alt={voucher.name} className="w-full h-45 object-cover" />
+          <div className="px-5 mt-2">
+            <h2 className="text-[#e9e9ec] text-lg font-bold">{voucher.name}</h2>
+          </div>
+          <div className="px-5 mt-2">
+            <p className="text-[#e9e9ec] text-base font-bold">Discount: {voucher.discount}</p>
+          </div>
+          {partner && (
+            <div className="mt-2 flex items-center px-5">
+              <img className="w-8 h-8 rounded-full" src={partner.logo} alt={partner.name} />
+              <span className="ml-2 text-gray-300">{partner.name}</span>
+            </div>
+          )}
         </div>
-      )}
-      {/* Add CRUD buttons here */}
+      </Link>
     </div>
   );
-};
+}
 
-VoucherCard.propTypes = {
+Card.propTypes = {
   voucher: PropTypes.shape({
     id: PropTypes.number.isRequired,
     name: PropTypes.string.isRequired,
@@ -34,4 +42,4 @@ VoucherCard.propTypes = {
   })).isRequired
 };
 
-export default VoucherCard;
+export default Card;

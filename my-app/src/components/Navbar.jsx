@@ -4,13 +4,13 @@ import logo from "../assets/logo.jpg"; // Đảm bảo rằng bạn có logo ở
 const Navbar = () => {
   return (
     <div className="bg-gray-800 h-full w-64 p-4 flex flex-col">
-      {/* Logo */}
-      <div className="flex items-center mb-8">
+     <Link to="/">
+     <div className="flex items-center mb-8">
         <img src={logo} alt="Logo" className="w-12 h-12 rounded-full" />
         <h1 className="text-white text-2xl ml-2 font-bold">Voucher</h1>
       </div>
+     </Link>
 
-      {/* Navigation Links */}
       <nav className="flex flex-col space-y-4">
         <Link
           to="/"

@@ -12,9 +12,13 @@ import Navbar from "./components/Navbar";
 const Layout = () => {
   return (
     <div className="flex h-screen bg-gray-900 text-white">
+    <div className=" bg-gray-800 p-4">
       <Navbar />
+    </div>
+    <div className="flex-1 p-4 overflow-auto">
       <Outlet />
     </div>
+  </div>
   );
 };
 const router = createBrowserRouter([

@@ -10,13 +10,12 @@ const PartnerForm = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Handle form submission logic here
     console.log('Submitted partner:', partner);
   };
 
   return (
-    <form onSubmit={handleSubmit} className="mt-8 p-4 bg-gray-800 rounded-lg">
-      <h2 className="text-xl font-semibold mb-4">Add / Edit Partner</h2>
+    <form onSubmit={handleSubmit} className="mt-8 p-4 bg-gray-800 rounded-lg text-black">
+      <h2 className="text-xl font-semibold mb-4 text-white" >Add Partner</h2>
       <input 
         type="text" 
         name="name" 

@@ -1,11 +1,9 @@
 import vouchersData from "./vouchers.json";
 import partnersData from "./partners.json";
 
-// Initialize state with static data
 let vouchers = [...vouchersData];
 let partners = [...partnersData];
 
-// Helper functions to simulate data persistence
 const findVoucherIndexById = (id) => vouchers.findIndex((v) => v.id === id);
 const findPartnerById = (id) => partners.find((p) => p.id === id);
 

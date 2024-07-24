@@ -1,44 +1,44 @@
 [
   {
     "id": 1,
-    "name": "giamgia momo",
+    "name": "giam gia momo",
     "discount": "10%",
-    "image": "https://via.placeholder.com/150",
+    "image": "https://homepage.momocdn.net/blogscontents/momo-amazone-s3-api-240722164030-638572632306790829.jpg",
     "partnerId": 1
   },
   {
     "id": 2,
-    "name": "giam gia vina",
+    "name": "giam gia ",
     "discount": "20%",
-    "image": "https://via.placeholder.com/150",
+    "image": "https://homepage.momocdn.net/blogscontents/momo-amazone-s3-api-240722144821-638572565010312566.jpg",
     "partnerId": 2
   },
   {
     "id": 3,
     "name": "30% off",
     "discount": "30%",
-    "image": "https://via.placeholder.com/150",
+    "image": "https://homepage.momocdn.net/blogscontents/momo-amazone-s3-api-240723102532-638573271322958459.jpg",
     "partnerId": 1
   },
   {
     "id": 6,
     "name": "10% off",
     "discount": "10%",
-    "image": "https://via.placeholder.com/150",
+    "image": "https://homepage.momocdn.net/img/momo-upload-api-240307144046-638454192465409822.jpg",
     "partnerId": 1
   },
   {
     "id": 4,
     "name": "20% off",
     "discount": "20%",
-    "image": "https://via.placeholder.com/150",
+    "image": "https://homepage.momocdn.net/img/momo-upload-api-240605162522-638532015229503023.jpg",
     "partnerId": 2
   },
   {
     "id": 5,
     "name": "30% off",
     "discount": "30%",
-    "image": "https://via.placeholder.com/150",
+    "image": "https://homepage.momocdn.net/img/momo-upload-api-240307144046-638454192465409822.jpg",
     "partnerId": 1
   }
 ]
